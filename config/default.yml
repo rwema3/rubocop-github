@@ -1,0 +1,11 @@
+inherit_from:
+  - ./default_pending.yml
+
+require:
+  - rubocop-github
+  - rubocop-performance
+
+Bundler/DuplicatedGem:
+  Enabled: true
+
+Bundler/GemComment:
