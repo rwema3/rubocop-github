@@ -1610,3 +1610,93 @@ Style/StringLiterals:
   StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#double-quotes
 
 Style/StringLiteralsInInterpolation:
+  Enabled: false
+
+Style/StringMethods:
+  Enabled: false
+
+Style/Strip:
+  Enabled: true
+
+Style/StructInheritance:
+  Enabled: false
+
+Style/SwapValues:
+  Enabled: false
+
+Style/SymbolArray:
+  Enabled: false
+
+Style/SymbolLiteral:
+  Enabled: false
+
+Style/SymbolProc:
+  Enabled: false
+
+Style/TernaryParentheses:
+  Enabled: false
+
+Style/TopLevelMethodDefinition:
+  Enabled: false
+
+Style/TrailingBodyOnClass:
+  Enabled: false
+
+Style/TrailingBodyOnMethodDefinition:
+  Enabled: false
+
+Style/TrailingBodyOnModule:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Style/TrailingCommaInArrayLiteral:
+  Enabled: false
+
+Style/TrailingCommaInBlockArgs:
+  Enabled: false
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: false
+
+Style/TrailingMethodEndStatement:
+  Enabled: false
+
+Style/TrailingUnderscoreVariable:
+  Enabled: false
+
+Style/TrivialAccessors:
+  Enabled: false
+
+# TODO: Enable this since it's in the styleguide.
+Style/UnlessElse:
+  Enabled: false
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#no-else-with-unless
+
+Style/UnlessLogicalOperators:
+  Enabled: false
+
+Style/UnpackFirst:
+  Enabled: false
+
+Style/VariableInterpolation:
+  Enabled: false
+
+Style/WhenThen:
+  Enabled: false
+
+Style/WhileUntilDo:
+  Enabled: false
+
+Style/WhileUntilModifier:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/YodaCondition:
+  Enabled: false
+
+Style/ZeroLengthPredicate:
+  Enabled: false
