@@ -516,3 +516,22 @@ Lint/LiteralInInterpolation:
   Enabled: true
 
 Lint/Loop:
+  Enabled: true
+
+Lint/MissingCopEnableDirective:
+  Enabled: false
+
+Lint/MissingSuper:
+  Enabled: false
+
+Lint/MixedRegexpCaptureTypes:
+  Enabled: false
+
+Lint/MultipleComparison:
+  Enabled: false
+
+Lint/NestedMethodDefinition:
+  Enabled: false
+
+Lint/NestedPercentLiteral:
+  Enabled: false
