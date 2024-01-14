@@ -400,3 +400,55 @@ Lint/Debugger:
 
 Lint/DeprecatedClassMethods:
   Enabled: true
+
+Lint/DeprecatedConstants:
+  Enabled: false
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: false
+
+Lint/DisjunctiveAssignmentInConstructor:
+  Enabled: false
+
+Lint/DuplicateBranch:
+  Enabled: false
+
+Lint/DuplicateCaseCondition:
+  Enabled: false
+
+Lint/DuplicateElsifCondition:
+  Enabled: false
+
+Lint/DuplicateHashKey:
+  Enabled: true
+
+Lint/DuplicateMethods:
+  Enabled: true
+
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: false
+
+Lint/DuplicateRequire:
+  Enabled: false
+
+Lint/DuplicateRescueException:
+  Enabled: false
+
+Lint/EachWithObjectArgument:
+  Enabled: true
+
+Lint/ElseLayout:
+  Enabled: true
+
+Lint/EmptyBlock:
+  Enabled: false
+
+Lint/EmptyClass:
+  Enabled: false
+
+Lint/EmptyInPattern:
+  Enabled: false
+
+Lint/EmptyConditionalBody:
+  Enabled: false
+
