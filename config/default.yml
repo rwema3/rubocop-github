@@ -49,3 +49,18 @@ GitHub/AvoidObjectSendWithDynamicMethod:
 
 GitHub/InsecureHashAlgorithm:
   Enabled: true
+
+Layout/AccessModifierIndentation:
+  Enabled: false
+
+Layout/ArgumentAlignment:
+  Enabled: false
+
+Layout/ArrayAlignment:
+  Enabled: false
+
+Layout/AssignmentIndentation:
+  Enabled: false
+
+Layout/BeginEndAlignment:
+  Enabled: false
