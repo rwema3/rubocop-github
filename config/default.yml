@@ -942,3 +942,80 @@ Performance/SelectMap:
 
 Performance/Size:
   Enabled: true
+
+Performance/SortReverse:
+  Enabled: false
+
+Performance/Squeeze:
+  Enabled: false
+
+Performance/StartWith:
+  Enabled: true
+
+Performance/StringIdentifierArgument:
+  Enabled: false
+
+Performance/StringInclude:
+  Enabled: false
+
+Performance/StringReplacement:
+  Enabled: false
+
+Performance/Sum:
+  Enabled: false
+
+Performance/TimesMap:
+  Enabled: false
+
+Performance/UnfreezeString:
+  Enabled: false
+
+Performance/UriDefaultParser:
+  Enabled: false
+
+Security/CompoundHash:
+  Enabled: false
+
+Security/Eval:
+  Enabled: true
+
+Security/IoMethods:
+  Enabled: false
+
+Security/JSONLoad:
+  Enabled: false
+
+Security/MarshalLoad:
+  Enabled: false
+
+Security/Open:
+  Enabled: false
+
+Security/YAMLLoad:
+  Enabled: false
+
+Style/AccessModifierDeclarations:
+  Enabled: false
+
+Style/AccessorGrouping:
+  Enabled: false
+
+Style/Alias:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: true
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#no-and-or-or
+
+Style/ArgumentsForwarding:
+  Enabled: false
+
+Style/ArrayCoercion:
+  Enabled: false
+
+Style/ArrayJoin:
+  Enabled: true
+
+Style/AsciiComments:
+  Enabled: false
+
