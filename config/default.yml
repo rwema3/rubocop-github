@@ -285,3 +285,25 @@ Layout/SpaceAroundBlockParameters:
 
 Layout/SpaceAroundEqualsInParameterDefault:
   StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#spaces-around-equals
+
+Layout/SpaceAroundKeyword:
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#spaces-operators
+
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: false
+
+Layout/SpaceAroundOperators:
+  Enabled: true
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#spaces-operators
+  Exclude:
+  - "**/*.erb"
+
+Layout/SpaceBeforeBlockBraces:
+  Enabled: true
+
+Layout/SpaceBeforeBrackets:
+  Enabled: false
+
+Layout/SpaceBeforeComma:
+  Enabled: false
+
