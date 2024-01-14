@@ -89,3 +89,24 @@ Layout/CommentIndentation:
   Enabled: false
 
 Layout/ConditionPosition:
+  Enabled: true
+
+Layout/DefEndAlignment:
+  Enabled: true
+
+Layout/DotPosition:
+  Enabled: false
+
+Layout/ElseAlignment:
+  Enabled: false
+
+Layout/EmptyComment:
+  Enabled: false
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Layout/EmptyLineAfterMagicComment:
+  Enabled: false
+
+Layout/EmptyLineAfterMultilineCondition:
