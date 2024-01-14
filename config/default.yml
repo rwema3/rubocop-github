@@ -36,3 +36,16 @@ Gemspec/OrderedDependencies:
   Enabled: false
 
 Gemspec/RequireMFA:
+  Enabled: false
+
+Gemspec/RequiredRubyVersion:
+  Enabled: false
+
+Gemspec/RubyVersionGlobalsUsage:
+  Enabled: false
+
+GitHub/AvoidObjectSendWithDynamicMethod:
+  Enabled: true
+
+GitHub/InsecureHashAlgorithm:
+  Enabled: true
