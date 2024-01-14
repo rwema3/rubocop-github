@@ -1108,3 +1108,114 @@ Style/DefWithParentheses:
   StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#method-parens-when-arguments
 
 Style/Dir:
+  Enabled: false
+
+Style/DisableCopsWithinSourceCodeDirective:
+  Enabled: false
+
+Style/DocumentDynamicEvalDefinition:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DocumentationMethod:
+  Enabled: false
+
+Style/DoubleCopDisableDirective:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/EachForSimpleLoop:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/EmptyBlockParameter:
+  Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/EmptyElse:
+  Enabled: false
+
+Style/EmptyHeredoc:
+  Enabled: false
+
+Style/EmptyLambdaParameter:
+  Enabled: false
+
+Style/EmptyLiteral:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Style/Encoding:
+  Enabled: false
+
+Style/EndBlock:
+  Enabled: true
+
+Style/EndlessMethod:
+  Enabled: false
+
+Style/EnvHome:
+  Enabled: false
+
+Style/EvalWithLocation:
+  Enabled: false
+
+Style/EvenOdd:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: false
+
+Style/ExplicitBlockArgument:
+  Enabled: false
+
+Style/ExponentialNotation:
+  Enabled: false
+
+Style/FetchEnvVar:
+  Enabled: false
+
+Style/FileRead:
+  Enabled: false
+
+Style/FileWrite:
+  Enabled: false
+
+Style/FloatDivision:
+  Enabled: false
+
+Style/For:
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#avoid-for
+
+Style/FormatString:
+  Enabled: false
+
+Style/FormatStringToken:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: true
+
+Style/GlobalStdStream:
+  Enabled: false
+
+Style/GlobalVars:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Style/HashAsLastArrayItem:
+  Enabled: false
+
+Style/HashConversion:
