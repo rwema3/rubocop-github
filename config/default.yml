@@ -252,3 +252,36 @@ Layout/MultilineMethodDefinitionBraceLayout:
 
 Layout/MultilineOperationIndentation:
   Enabled: false
+
+Layout/ParameterAlignment:
+  Enabled: false
+
+Layout/RedundantLineBreak:
+  Enabled: false
+
+Layout/RescueEnsureAlignment:
+  Enabled: false
+
+Layout/SingleLineBlockChain:
+  Enabled: false
+
+Layout/SpaceAfterColon:
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#spaces-operators
+
+Layout/SpaceAfterComma:
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#spaces-operators
+
+Layout/SpaceAfterMethodName:
+  Enabled: true
+
+Layout/SpaceAfterNot:
+  Enabled: true
+
+Layout/SpaceAfterSemicolon:
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#spaces-operators
+
+Layout/SpaceAroundBlockParameters:
+  Enabled: true
+
+Layout/SpaceAroundEqualsInParameterDefault:
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#spaces-around-equals
