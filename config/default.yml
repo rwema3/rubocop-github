@@ -9,3 +9,14 @@ Bundler/DuplicatedGem:
   Enabled: true
 
 Bundler/GemComment:
+  Enabled: false
+
+Bundler/GemFilename:
+  Enabled: false
+
+Bundler/GemVersion:
+  Enabled: false
+
+Bundler/InsecureProtocolSource:
+  Enabled: false
+
