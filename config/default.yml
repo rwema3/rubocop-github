@@ -1526,3 +1526,55 @@ Style/RedundantSelf:
 
 Style/RedundantSelfAssignment:
   Enabled: false
+
+Style/RedundantSelfAssignmentBranch:
+  Enabled: false
+
+Style/RedundantSort:
+  Enabled: false
+
+Style/RedundantSortBy:
+  Enabled: true
+
+Style/RegexpLiteral:
+  Enabled: false
+
+Style/RescueModifier:
+  Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
+
+Style/ReturnNil:
+  Enabled: false
+
+Style/SafeNavigation:
+  Enabled: false
+
+Style/Sample:
+  Enabled: true
+
+Style/SelectByRegexp:
+  Enabled: false
+
+Style/SelfAssignment:
+  Enabled: false
+
+Style/Semicolon:
+  Enabled: false
+
+Style/Send:
+  Enabled: false
+
+Style/SignalException:
+  Enabled: false
+
+Style/SingleArgumentDig:
+  Enabled: false
+
+Style/SingleLineBlockParams:
+  Enabled: false
+
+Style/SingleLineMethods:
+  Enabled: false
+
