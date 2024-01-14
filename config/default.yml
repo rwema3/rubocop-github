@@ -20,3 +20,19 @@ Bundler/GemVersion:
 Bundler/InsecureProtocolSource:
   Enabled: false
 
+Bundler/OrderedGems:
+  Enabled: true
+
+Gemspec/DependencyVersion:
+  Enabled: false
+
+Gemspec/DeprecatedAttributeAssignment:
+  Enabled: false
+
+Gemspec/DuplicatedAssignment:
+  Enabled: false
+
+Gemspec/OrderedDependencies:
+  Enabled: false
+
+Gemspec/RequireMFA:
