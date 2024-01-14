@@ -77,3 +77,15 @@ Layout/CaseIndentation:
   EnforcedStyle: end
 
 Layout/ClassStructure:
+  Enabled: false
+
+Layout/ClosingHeredocIndentation:
+  Enabled: false
+
+Layout/ClosingParenthesisIndentation:
+  Enabled: false
+
+Layout/CommentIndentation:
+  Enabled: false
+
+Layout/ConditionPosition:
