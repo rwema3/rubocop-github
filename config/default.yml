@@ -682,3 +682,32 @@ Lint/TopLevelReturnWithArgument:
 Lint/TrailingCommaInAttributeDeclaration:
   Enabled: false
 
+Lint/TripleQuotes:
+  Enabled: false
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: true
+
+Lint/UnexpectedBlockArity:
+  Enabled: false
+
+Lint/UnifiedInteger:
+  Enabled: false
+
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: false
+
+Lint/UnreachableCode:
+  Enabled: true
+
+Lint/UnreachableLoop:
+  Enabled: false
+
+# TODO: Enable this since it's in the styleguide.
+Lint/UnusedBlockArgument:
+  Enabled: false
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#underscore-unused-vars
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
