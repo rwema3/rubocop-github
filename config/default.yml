@@ -126,3 +126,19 @@ Layout/EmptyLinesAroundArguments:
 
 Layout/EmptyLinesAroundAttributeAccessor:
   Enabled: false
+
+Layout/EmptyLinesAroundBeginBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundClassBody:
+  Enabled: false
+
+Layout/EmptyLinesAroundExceptionHandlingKeywords:
+  Enabled: false
+
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
+
