@@ -173,3 +173,31 @@ Layout/FirstMethodArgumentLineBreak:
   Enabled: false
 
 Layout/FirstMethodParameterLineBreak:
+  Enabled: false
+
+Layout/FirstParameterIndentation:
+  Enabled: false
+
+Layout/HashAlignment:
+  Enabled: false
+
+Layout/HeredocArgumentClosingParenthesis:
+  Enabled: false
+
+Layout/HeredocIndentation:
+  Enabled: false
+
+Layout/IndentationConsistency:
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#indentation
+
+Layout/IndentationStyle:
+  EnforcedStyle: spaces
+  IndentationWidth: 2
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#default-indentation
+
+Layout/IndentationWidth:
+  Width: 2
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#default-indentation
+
+Layout/InitialIndentation:
+  Enabled: true
