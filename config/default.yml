@@ -1263,3 +1263,60 @@ Style/ImplicitRuntimeError:
 
 Style/InPatternThen:
   Enabled: false
+
+Style/InfiniteLoop:
+  Enabled: false
+
+Style/InlineComment:
+  Enabled: false
+
+Style/InverseMethods:
+  Enabled: false
+
+Style/IpAddresses:
+  Enabled: false
+
+Style/KeywordParametersOrder:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
+Style/LambdaCall:
+  Enabled: true
+
+Style/LineEndConcatenation:
+  Enabled: false
+
+Style/MagicCommentFormat:
+  Enabled: false
+
+Style/MapCompactWithConditionalBlock:
+  Enabled: false
+
+Style/MapToHash:
+  Enabled: false
+
+Style/MethodCallWithArgsParentheses:
+  Enabled: false
+
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: true
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: false
+
+Style/MethodDefParentheses:
+  Enabled: true
+
+Style/MinMax:
+  Enabled: false
+
+Style/MissingElse:
+  Enabled: false
+
+Style/MissingRespondToMissing:
+  Enabled: false
+
+Style/MixinGrouping:
+  Enabled: false
