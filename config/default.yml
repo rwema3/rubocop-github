@@ -1453,3 +1453,76 @@ Style/PercentQLiterals:
 Style/PerlBackrefs:
   Enabled: false
 
+Style/PreferredHashMethods:
+  Enabled: false
+
+Style/Proc:
+  Enabled: false
+
+Style/QuotedSymbols:
+  Enabled: false
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/RandomWithOffset:
+  Enabled: false
+
+Style/RedundantArgument:
+  Enabled: false
+
+Style/RedundantAssignment:
+  Enabled: false
+
+Style/RedundantBegin:
+  Enabled: false
+
+Style/RedundantCapitalW:
+  Enabled: false
+
+Style/RedundantCondition:
+  Enabled: false
+
+Style/RedundantConditional:
+  Enabled: false
+
+Style/RedundantException:
+  Enabled: false
+
+Style/RedundantFetchBlock:
+  Enabled: false
+
+Style/RedundantFileExtensionInRequire:
+  Enabled: false
+
+Style/RedundantFreeze:
+  Enabled: false
+
+Style/RedundantInitialize:
+  Enabled: false
+
+Style/RedundantInterpolation:
+  Enabled: false
+
+Style/RedundantParentheses:
+  Enabled: false
+
+Style/RedundantPercentQ:
+  Enabled: false
+
+Style/RedundantRegexpCharacterClass:
+  Enabled: false
+
+Style/RedundantRegexpEscape:
+  Enabled: false
+
+# TODO: Enable this since it's in the styleguide.
+Style/RedundantReturn:
+  Enabled: false
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/STYLEGUIDE.md#avoid-return
+
+Style/RedundantSelf:
+  Enabled: false
+
+Style/RedundantSelfAssignment:
+  Enabled: false
