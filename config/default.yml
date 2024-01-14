@@ -157,3 +157,19 @@ Layout/ExtraSpacing:
 Layout/FirstArgumentIndentation:
   Enabled: false
 
+Layout/FirstArrayElementIndentation:
+  Enabled: false
+
+Layout/FirstArrayElementLineBreak:
+  Enabled: false
+
+Layout/FirstHashElementIndentation:
+  Enabled: false
+
+Layout/FirstHashElementLineBreak:
+  Enabled: false
+
+Layout/FirstMethodArgumentLineBreak:
+  Enabled: false
+
+Layout/FirstMethodParameterLineBreak:
