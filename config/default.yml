@@ -142,3 +142,18 @@ Layout/EmptyLinesAroundExceptionHandlingKeywords:
 Layout/EmptyLinesAroundMethodBody:
   Enabled: false
 
+Layout/EmptyLinesAroundModuleBody:
+  Enabled: false
+
+Layout/EndAlignment:
+  Enabled: false
+
+Layout/EndOfLine:
+  Enabled: true
+
+Layout/ExtraSpacing:
+  Enabled: false
+
+Layout/FirstArgumentIndentation:
+  Enabled: false
+
