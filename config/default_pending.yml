@@ -1,0 +1,2 @@
+Lint/DuplicateMagicComment: # new in 1.37
+  Enabled: false
