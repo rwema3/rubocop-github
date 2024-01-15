@@ -285,3 +285,18 @@ Rails/RedundantAllowNil:
 Rails/RedundantForeignKey:
   Enabled: false
 
+Rails/RedundantPresenceValidationOnBelongsTo:
+  Enabled: false
+
+Rails/RedundantReceiverInWithOptions:
+  Enabled: false
+
+Rails/RedundantTravelBack:
+  Enabled: false
+
+Rails/ReflectionClassName:
+  Enabled: false
+
+Rails/RefuteMethods:
+  Enabled: false
+
