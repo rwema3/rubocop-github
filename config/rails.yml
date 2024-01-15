@@ -253,3 +253,35 @@ Rails/OutputSafety:
   Enabled: true
 
 Rails/Pick:
+  Enabled: false
+
+Rails/Pluck:
+  Enabled: false
+
+Rails/PluckId:
+  Enabled: false
+
+Rails/PluckInWhere:
+  Enabled: false
+
+Rails/PluralizationGrammar:
+  Enabled: true
+
+Rails/Presence:
+  Enabled: false
+
+Rails/Present:
+  Enabled: false
+
+Rails/RakeEnvironment:
+  Enabled: false
+
+Rails/ReadWriteAttribute:
+  Enabled: false
+
+Rails/RedundantAllowNil:
+  Enabled: false
+
+Rails/RedundantForeignKey:
+  Enabled: false
+
