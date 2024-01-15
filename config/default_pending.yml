@@ -2,3 +2,5 @@ Lint/DuplicateMagicComment: # new in 1.37
   Enabled: false
 Style/OperatorMethodCall: # new in 1.37
   Enabled: false
+Style/RedundantStringEscape: # new in 1.37
+  Enabled: false
