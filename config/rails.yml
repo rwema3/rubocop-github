@@ -24,3 +24,30 @@ GitHub/RailsViewRenderLiteral:
   Enabled: true
 
 GitHub/RailsViewRenderPathsExist:
+  Enabled: true
+
+GitHub/RailsViewRenderShorthand:
+  Enabled: true
+
+Layout/BlockAlignment:
+  Exclude:
+    - "**/*.erb"
+
+Layout/IndentationWidth:
+  Exclude:
+    - "**/*.erb"
+
+Layout/InitialIndentation:
+  Exclude:
+    - "**/*.erb"
+
+Layout/SpaceInsideParens:
+  Exclude:
+    - "**/*.erb"
+
+Layout/TrailingEmptyLines:
+  Exclude:
+    - "**/*.erb"
+
+Layout/TrailingWhitespace:
+  Exclude:
