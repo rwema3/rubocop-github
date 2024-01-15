@@ -111,3 +111,35 @@ Rails/Blank:
 Rails/BulkChangeTable:
   Enabled: false
 
+Rails/CompactBlank:
+  Enabled: false
+
+Rails/ContentTag:
+  Enabled: false
+
+Rails/CreateTableWithTimestamps:
+  Enabled: false
+
+Rails/Date:
+  Enabled: false
+
+Rails/DefaultScope:
+  Enabled: false
+
+Rails/Delegate:
+  Enabled: false
+
+Rails/DelegateAllowBlank:
+  Enabled: false
+
+Rails/DeprecatedActiveModelErrorsMethods:
+  Enabled: false
+
+Rails/DotSeparatedKeys:
+  Enabled: false
+
+Rails/DuplicateAssociation:
+  Enabled: false
+
+Rails/DuplicateScope:
+  Enabled: false
