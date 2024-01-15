@@ -76,3 +76,38 @@ Rails/ActiveSupportAliases:
   Enabled: false
 
 Rails/AddColumnIndex:
+  Enabled: false
+
+Rails/AfterCommitOverride:
+  Enabled: false
+
+Rails/ApplicationController:
+  Enabled: false
+
+Rails/ApplicationJob:
+  Enabled: false
+
+Rails/ApplicationMailer:
+  Enabled: false
+
+Rails/ApplicationRecord:
+  Enabled: true
+
+Rails/ArelStar:
+  Enabled: false
+
+Rails/AssertNot:
+  Enabled: false
+
+Rails/AttributeDefaultBlockValue:
+  Enabled: false
+
+Rails/BelongsTo:
+  Enabled: false
+
+Rails/Blank:
+  Enabled: false
+
+Rails/BulkChangeTable:
+  Enabled: false
+
