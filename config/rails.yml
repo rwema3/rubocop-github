@@ -8,3 +8,19 @@ require:
 GitHub/RailsControllerRenderActionSymbol:
   Enabled: true
 
+GitHub/RailsControllerRenderLiteral:
+  Enabled: true
+
+GitHub/RailsControllerRenderPathsExist:
+  Enabled: true
+
+GitHub/RailsControllerRenderShorthand:
+  Enabled: true
+
+GitHub/RailsRenderObjectCollection:
+  Enabled: false
+
+GitHub/RailsViewRenderLiteral:
+  Enabled: true
+
+GitHub/RailsViewRenderPathsExist:
