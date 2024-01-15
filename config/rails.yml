@@ -51,3 +51,28 @@ Layout/TrailingEmptyLines:
 
 Layout/TrailingWhitespace:
   Exclude:
+    - "**/*.erb"
+
+Lint/UselessAccessModifier:
+  ContextCreatingMethods:
+    - concerning
+
+Rails/ActionControllerTestCase:
+  Enabled: false
+
+Rails/ActionFilter:
+  Enabled: false
+
+Rails/ActiveRecordAliases:
+  Enabled: false
+
+Rails/ActiveRecordCallbacksOrder:
+  Enabled: false
+
+Rails/ActiveRecordOverride:
+  Enabled: false
+
+Rails/ActiveSupportAliases:
+  Enabled: false
+
+Rails/AddColumnIndex:
