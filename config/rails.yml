@@ -391,3 +391,14 @@ Rails/WhereEquals:
 Rails/WhereExists:
   Enabled: false
 
+Rails/WhereNot:
+  Enabled: false
+
+Style/For:
+  Exclude:
+    - "**/*.erb"
+
+Style/OneLineConditional:
+  Exclude:
+    - "**/*.erb"
+
