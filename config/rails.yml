@@ -300,3 +300,14 @@ Rails/ReflectionClassName:
 Rails/RefuteMethods:
   Enabled: false
 
+Rails/RelativeDateConstant:
+  Enabled: false
+
+Rails/RenderInline:
+  Enabled: true
+
+Rails/RenderPlainText:
+  Enabled: false
+
+Rails/RequestReferer:
+  Enabled: true
