@@ -1,0 +1,10 @@
+inherit_from:
+  - ./rails_pending.yml
+
+require:
+  - rubocop-github-rails
+  - rubocop-rails
+
+GitHub/RailsControllerRenderActionSymbol:
+  Enabled: true
+
