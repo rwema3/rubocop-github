@@ -365,3 +365,29 @@ Rails/TimeZoneAssignment:
   Enabled: false
 
 Rails/ToFormattedS:
+  Enabled: false
+
+Rails/TransactionExitStatement:
+  Enabled: false
+
+Rails/UniqBeforePluck:
+  Enabled: true
+
+Rails/UniqueValidationWithoutIndex:
+  Enabled: false
+
+Rails/UnknownEnv:
+  Enabled: false
+
+Rails/UnusedIgnoredColumns:
+  Enabled: false
+
+Rails/Validation:
+  Enabled: false
+
+Rails/WhereEquals:
+  Enabled: false
+
+Rails/WhereExists:
+  Enabled: false
+
