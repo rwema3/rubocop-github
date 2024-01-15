@@ -172,3 +172,29 @@ Rails/ExpandedDateRange:
   Enabled: false
 
 Rails/FilePath:
+  Enabled: false
+
+Rails/FindBy:
+  Enabled: false
+
+Rails/FindById:
+  Enabled: false
+
+Rails/FindEach:
+  Enabled: false
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Rails/HasManyOrHasOneDependent:
+  Enabled: false
+
+Rails/HelperInstanceVariable:
+  Enabled: false
+
+Rails/HttpPositionalArguments:
+  Enabled: false
+
+Rails/HttpStatus:
+  Enabled: false
+
