@@ -143,3 +143,32 @@ Rails/DuplicateAssociation:
 
 Rails/DuplicateScope:
   Enabled: false
+
+Rails/DurationArithmetic:
+  Enabled: false
+
+Rails/DynamicFindBy:
+  Enabled: false
+
+Rails/EagerEvaluationLogMessage:
+  Enabled: false
+
+Rails/EnumHash:
+  Enabled: false
+
+Rails/EnumUniqueness:
+  Enabled: false
+
+Rails/EnvironmentComparison:
+  Enabled: false
+
+Rails/EnvironmentVariableAccess:
+  Enabled: false
+
+Rails/Exit:
+  Enabled: false
+
+Rails/ExpandedDateRange:
+  Enabled: false
+
+Rails/FilePath:
