@@ -402,3 +402,6 @@ Style/OneLineConditional:
   Exclude:
     - "**/*.erb"
 
+Style/Semicolon:
+  Exclude:
+    - "**/*.erb"
