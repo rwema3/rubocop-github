@@ -198,3 +198,31 @@ Rails/HttpPositionalArguments:
 Rails/HttpStatus:
   Enabled: false
 
+Rails/I18nLazyLookup:
+  Enabled: false
+
+Rails/I18nLocaleAssignment:
+  Enabled: false
+
+Rails/I18nLocaleTexts:
+  Enabled: false
+
+Rails/IgnoredSkipActionFilterOption:
+  Enabled: false
+
+Rails/IndexBy:
+  Enabled: false
+
+Rails/IndexWith:
+  Enabled: false
+
+Rails/Inquiry:
+  Enabled: false
+
+Rails/InverseOf:
+  Enabled: false
+
+Rails/LexicallyScopedActionFilter:
+  Enabled: false
+
+Rails/LinkToBlank:
