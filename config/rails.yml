@@ -354,3 +354,14 @@ Rails/SquishedSQLHeredocs:
 
 Rails/StripHeredoc:
   Enabled: false
+
+Rails/TableNameAssignment:
+  Enabled: false
+
+Rails/TimeZone:
+  Enabled: false
+
+Rails/TimeZoneAssignment:
+  Enabled: false
+
+Rails/ToFormattedS:
