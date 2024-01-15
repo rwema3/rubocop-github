@@ -326,3 +326,18 @@ Rails/RootJoinChain:
   Enabled: false
 
 Rails/RootPublicPath:
+  Enabled: false
+
+Rails/SafeNavigation:
+  Enabled: false
+
+Rails/SafeNavigationWithBlank:
+  Enabled: false
+
+Rails/SaveBang:
+  Enabled: false
+
+Rails/SchemaComment:
+  Enabled: false
+
+Rails/ScopeArgs:
