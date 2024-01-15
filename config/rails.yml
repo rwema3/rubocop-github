@@ -226,3 +226,30 @@ Rails/LexicallyScopedActionFilter:
   Enabled: false
 
 Rails/LinkToBlank:
+  Enabled: false
+
+Rails/MailerName:
+  Enabled: false
+
+Rails/MatchRoute:
+  Enabled: false
+
+Rails/MigrationClassName:
+  Enabled: false
+
+Rails/NegateInclude:
+  Enabled: false
+
+Rails/NotNullColumn:
+  Enabled: false
+
+Rails/OrderById:
+  Enabled: false
+
+Rails/Output:
+  Enabled: false
+
+Rails/OutputSafety:
+  Enabled: true
+
+Rails/Pick:
