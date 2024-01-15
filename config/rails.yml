@@ -311,3 +311,18 @@ Rails/RenderPlainText:
 
 Rails/RequestReferer:
   Enabled: true
+  EnforcedStyle: referrer
+
+Rails/RequireDependency:
+  Enabled: false
+
+Rails/ReversibleMigration:
+  Enabled: false
+
+Rails/ReversibleMigrationMethodDefinition:
+  Enabled: false
+
+Rails/RootJoinChain:
+  Enabled: false
+
+Rails/RootPublicPath:
