@@ -14,3 +14,5 @@ Rails/ToSWithArgument: # new in 2.16
   Enabled: false
 Rails/TopLevelHashWithIndifferentAccess: # new in 2.16
   Enabled: false
+Rails/WhereMissing: # new in 2.16
+  Enabled: false
