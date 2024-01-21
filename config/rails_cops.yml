@@ -15,3 +15,5 @@ GitHub/RailsControllerRenderPathsExist:
     - 'app/views'
   Include:
     - 'app/controllers/**/*.rb'
+
+GitHub/RailsControllerRenderShorthand:
