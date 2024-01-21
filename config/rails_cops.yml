@@ -21,3 +21,7 @@ GitHub/RailsControllerRenderShorthand:
   StyleGuide: https://github.com/github/rubocop-github/blob/main/guides/rails-controller-render-shorthand.md
   Include:
     - 'app/controllers/**/*.rb'
+
+GitHub/RailsRenderObjectCollection:
+  Enabled: pending
+
