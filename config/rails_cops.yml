@@ -19,3 +19,5 @@ GitHub/RailsControllerRenderPathsExist:
 GitHub/RailsControllerRenderShorthand:
   Enabled: pending
   StyleGuide: https://github.com/github/rubocop-github/blob/main/guides/rails-controller-render-shorthand.md
+  Include:
+    - 'app/controllers/**/*.rb'
