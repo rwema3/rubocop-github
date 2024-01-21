@@ -32,3 +32,13 @@ GitHub/RailsViewRenderLiteral:
     - 'app/helpers/**/*.rb'
     - 'app/view_models/**/*.rb'
     - 'app/views/**/*.erb'
+
+GitHub/RailsViewRenderPathsExist:
+  Enabled: pending
+  ViewPath:
+    - 'app/views'
+  Include:
+    - 'app/helpers/**/*.rb'
+    - 'app/view_models/**/*.rb'
+    - 'app/views/**/*.erb'
+
