@@ -5,3 +5,6 @@ GitHub/RailsControllerRenderActionSymbol:
 
 GitHub/RailsControllerRenderLiteral:
   Enabled: pending
+  StyleGuide: https://github.com/github/rubocop-github/blob/main/guides/rails-render-literal.md
+  Include:
+    - 'app/controllers/**/*.rb'
