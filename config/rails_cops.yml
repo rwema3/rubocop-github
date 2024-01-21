@@ -11,3 +11,7 @@ GitHub/RailsControllerRenderLiteral:
 
 GitHub/RailsControllerRenderPathsExist:
   Enabled: pending
+  ViewPath:
+    - 'app/views'
+  Include:
+    - 'app/controllers/**/*.rb'
