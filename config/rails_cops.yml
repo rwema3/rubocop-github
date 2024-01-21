@@ -42,3 +42,9 @@ GitHub/RailsViewRenderPathsExist:
     - 'app/view_models/**/*.rb'
     - 'app/views/**/*.erb'
 
+GitHub/RailsViewRenderShorthand:
+  Enabled: pending
+  Include:
+    - 'app/helpers/**/*.rb'
+    - 'app/view_models/**/*.rb'
+    - 'app/views/**/*.erb'
