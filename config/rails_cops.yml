@@ -2,3 +2,6 @@ GitHub/RailsControllerRenderActionSymbol:
   Enabled: pending
   Include:
     - 'app/controllers/**/*.rb'
+
+GitHub/RailsControllerRenderLiteral:
+  Enabled: pending
