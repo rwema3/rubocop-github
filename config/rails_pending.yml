@@ -12,3 +12,5 @@ Rails/RootPathnameMethods: # new in 2.16
   Enabled: false
 Rails/ToSWithArgument: # new in 2.16
   Enabled: false
+Rails/TopLevelHashWithIndifferentAccess: # new in 2.16
+  Enabled: false
