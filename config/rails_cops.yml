@@ -8,3 +8,6 @@ GitHub/RailsControllerRenderLiteral:
   StyleGuide: https://github.com/github/rubocop-github/blob/main/guides/rails-render-literal.md
   Include:
     - 'app/controllers/**/*.rb'
+
+GitHub/RailsControllerRenderPathsExist:
+  Enabled: pending
