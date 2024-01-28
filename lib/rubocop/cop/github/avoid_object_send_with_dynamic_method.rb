@@ -50,3 +50,6 @@ module RuboCop
         def method_name_being_sent_is_constant?(node)
           method_being_sent = node.arguments.first
           # e.g., `worker.send(:perform)` or `base.send("extend", Foo)`
+          CONSTANT_TYPES.include?(method_being_sent.type)
+        end
+
