@@ -2,3 +2,4 @@
 
 require "rubocop"
 
+module RuboCop
