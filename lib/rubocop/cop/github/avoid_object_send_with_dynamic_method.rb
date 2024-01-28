@@ -4,3 +4,4 @@ require "rubocop"
 
 module RuboCop
   module Cop
+    module GitHub
