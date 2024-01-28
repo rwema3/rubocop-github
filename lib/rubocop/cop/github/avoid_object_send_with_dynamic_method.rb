@@ -44,3 +44,6 @@ module RuboCop
         end
 
         def method_being_sent_is_constrained?(node)
+          method_name_being_sent_is_constant?(node) || method_name_being_sent_is_dynamic_string_with_constants?(node)
+        end
+
