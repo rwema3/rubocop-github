@@ -27,3 +27,5 @@ module RuboCop
       #     foo.public_send("some_method")
       #     foo.__send__("some_#{variable}_method")
       class AvoidObjectSendWithDynamicMethod < Base
+        MESSAGE_TEMPLATE = "Avoid using Object#%s with a dynamic method name."
+        SEND_METHODS = %i(send public_send __send__).freeze
