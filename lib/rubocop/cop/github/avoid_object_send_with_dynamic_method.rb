@@ -32,3 +32,5 @@ module RuboCop
         CONSTANT_TYPES = %i(sym str const).freeze
 
         def on_send(node)
+          return unless send_method?(node)
+          return if method_being_sent_is_constrained?(node)
