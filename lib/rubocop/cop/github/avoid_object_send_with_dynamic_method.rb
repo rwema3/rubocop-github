@@ -70,3 +70,8 @@ module RuboCop
             end
           end_pos = node.loc.selector.end_pos
           Parser::Source::Range.new(processed_source.buffer, begin_pos, end_pos)
+        end
+      end
+    end
+  end
+end
