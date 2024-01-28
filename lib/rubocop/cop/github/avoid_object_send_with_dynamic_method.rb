@@ -40,3 +40,6 @@ module RuboCop
         private
 
         def send_method?(node)
+          SEND_METHODS.include?(node.method_name)
+        end
+
