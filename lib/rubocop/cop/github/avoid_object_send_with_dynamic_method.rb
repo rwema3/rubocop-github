@@ -69,3 +69,4 @@ module RuboCop
               node.source_range.begin_pos
             end
           end_pos = node.loc.selector.end_pos
+          Parser::Source::Range.new(processed_source.buffer, begin_pos, end_pos)
