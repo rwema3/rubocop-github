@@ -34,3 +34,5 @@ module RuboCop
         def on_send(node)
           return unless send_method?(node)
           return if method_being_sent_is_constrained?(node)
+          add_offense(source_range_for_method_call(node), message: MESSAGE_TEMPLATE % node.method_name)
+        end
