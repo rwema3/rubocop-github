@@ -3,3 +3,4 @@
 require "rubocop"
 
 module RuboCop
+  module Cop
