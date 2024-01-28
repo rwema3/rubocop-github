@@ -57,3 +57,7 @@ module RuboCop
           method_being_sent = node.arguments.first
           return false unless method_being_sent.type == :dstr
 
+          # e.g., `foo.send("can_#{action}?")`
+          method_being_sent.child_nodes.any? { |child_node| CONSTANT_TYPES.include?(child_node.type) }
+        end
+
