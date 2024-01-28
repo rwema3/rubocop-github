@@ -26,3 +26,4 @@ module RuboCop
       #     foo.send(:bar)
       #     foo.public_send("some_method")
       #     foo.__send__("some_#{variable}_method")
+      class AvoidObjectSendWithDynamicMethod < Base
