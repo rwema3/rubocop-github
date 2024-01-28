@@ -43,3 +43,4 @@ module RuboCop
           SEND_METHODS.include?(node.method_name)
         end
 
+        def method_being_sent_is_constrained?(node)
