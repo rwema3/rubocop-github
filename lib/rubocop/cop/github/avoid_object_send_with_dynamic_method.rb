@@ -63,3 +63,4 @@ module RuboCop
 
         def source_range_for_method_call(node)
           begin_pos =
+            if node.receiver # e.g., for `foo.send(:bar)`, `foo` is the receiver
