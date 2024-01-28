@@ -54,3 +54,4 @@ module RuboCop
         end
 
         def method_name_being_sent_is_dynamic_string_with_constants?(node)
+          method_being_sent = node.arguments.first
