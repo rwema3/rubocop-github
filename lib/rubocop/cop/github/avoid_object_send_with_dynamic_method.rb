@@ -68,3 +68,4 @@ module RuboCop
             else # e.g., `send(:bar)`
               node.source_range.begin_pos
             end
+          end_pos = node.loc.selector.end_pos
