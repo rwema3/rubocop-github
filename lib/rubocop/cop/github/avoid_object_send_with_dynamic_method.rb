@@ -66,3 +66,5 @@ module RuboCop
             if node.receiver # e.g., for `foo.send(:bar)`, `foo` is the receiver
               node.receiver.source_range.end_pos
             else # e.g., `send(:bar)`
+              node.source_range.begin_pos
+            end
