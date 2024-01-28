@@ -61,3 +61,5 @@ module RuboCop
           method_being_sent.child_nodes.any? { |child_node| CONSTANT_TYPES.include?(child_node.type) }
         end
 
+        def source_range_for_method_call(node)
+          begin_pos =
