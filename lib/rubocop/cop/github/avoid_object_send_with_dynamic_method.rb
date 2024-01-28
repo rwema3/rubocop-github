@@ -53,3 +53,4 @@ module RuboCop
           CONSTANT_TYPES.include?(method_being_sent.type)
         end
 
+        def method_name_being_sent_is_dynamic_string_with_constants?(node)
