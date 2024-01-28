@@ -47,3 +47,6 @@ module RuboCop
           method_name_being_sent_is_constant?(node) || method_name_being_sent_is_dynamic_string_with_constants?(node)
         end
 
+        def method_name_being_sent_is_constant?(node)
+          method_being_sent = node.arguments.first
+          # e.g., `worker.send(:perform)` or `base.send("extend", Foo)`
