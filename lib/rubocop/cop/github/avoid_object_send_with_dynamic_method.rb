@@ -39,3 +39,4 @@ module RuboCop
 
         private
 
+        def send_method?(node)
