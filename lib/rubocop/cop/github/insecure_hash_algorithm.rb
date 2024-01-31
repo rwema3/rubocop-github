@@ -53,3 +53,8 @@ module RuboCop
         def_node_matcher :digest_uuid?, <<-PATTERN
           (const (const _ :Digest) :UUID)
         PATTERN
+
+        def_node_matcher :uuid_v3?, <<-PATTERN
+          (send (const _ :UUID) :uuid_v3 ...)
+        PATTERN
+
