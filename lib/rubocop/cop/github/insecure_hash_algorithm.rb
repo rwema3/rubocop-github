@@ -98,4 +98,6 @@ module RuboCop
 
         def alg_name(val)
           return :nil if val.nil?
+          return val.to_s.downcase unless val.is_a?(RuboCop::AST::Node)
+          case val.type
  
