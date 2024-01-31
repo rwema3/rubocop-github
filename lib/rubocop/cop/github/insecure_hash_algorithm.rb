@@ -82,3 +82,13 @@ module RuboCop
         def just_encoding?(val)
           val == :hexencode || val == :bubblebabble
         end
+
+        # Built-in hash functions are listed in these docs:
+        #  https://ruby-doc.org/stdlib-2.7.0/libdoc/digest/rdoc/Digest.html
+        #  https://ruby-doc.org/stdlib-2.7.0/libdoc/openssl/rdoc/OpenSSL/Digest.html
+        DEFAULT_ALLOWED = %w[
+          SHA256
+          SHA384
+          SHA512
+        ].freeze
+
