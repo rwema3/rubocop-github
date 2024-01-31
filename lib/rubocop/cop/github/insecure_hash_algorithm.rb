@@ -116,4 +116,5 @@ module RuboCop
         def on_send(send_node)
           case
           when uuid_v3?(send_node)
+            unless allowed_hash_functions.include?("md5")
  
