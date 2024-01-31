@@ -75,3 +75,7 @@ module RuboCop
           end
         end
 
+        def not_just_encoding?(val)
+          !just_encoding?(val)
+        end
+
