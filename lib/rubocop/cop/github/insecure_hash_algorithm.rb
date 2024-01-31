@@ -92,3 +92,6 @@ module RuboCop
           SHA512
         ].freeze
 
+        def allowed_hash_functions
+          @allowed_algorithms ||= cop_config.fetch("Allowed", DEFAULT_ALLOWED).map(&:downcase)
+        end
