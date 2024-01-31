@@ -108,4 +108,5 @@ module RuboCop
         end
 
         def on_const(const_node)
+          if insecure_const?(const_node) && !digest_uuid?(const_node)
  
