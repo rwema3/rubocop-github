@@ -120,4 +120,5 @@ module RuboCop
               add_offense(send_node, message: UUID_V3_MSG)
             end
           when uuid_v5?(send_node)
+            unless allowed_hash_functions.include?("sha1")
  
