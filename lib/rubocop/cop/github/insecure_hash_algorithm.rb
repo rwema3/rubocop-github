@@ -127,4 +127,5 @@ module RuboCop
             if openssl_hmac_new_insecure?(send_node)
               add_offense(send_node, message: MSG)
             end
+          when insecure_digest?(send_node)
  
