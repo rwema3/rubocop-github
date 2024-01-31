@@ -124,4 +124,5 @@ module RuboCop
               add_offense(send_node, message: UUID_V5_MSG)
             end
           when openssl_hmac_new?(send_node)
+            if openssl_hmac_new_insecure?(send_node)
  
