@@ -13,3 +13,7 @@ module RuboCop
         # Matches constants like these:
         #   Digest::MD5
         #   OpenSSL::Digest::MD5
+        def_node_matcher :insecure_const?, <<-PATTERN
+          (const (const _ :Digest) #insecure_algorithm?)
+        PATTERN
+
