@@ -79,3 +79,6 @@ module RuboCop
           !just_encoding?(val)
         end
 
+        def just_encoding?(val)
+          val == :hexencode || val == :bubblebabble
+        end
