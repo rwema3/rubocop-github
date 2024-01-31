@@ -64,3 +64,6 @@ module RuboCop
 
         def insecure_algorithm?(val)
           return false if val == :Digest # Don't match "Digest::Digest".
+          case alg_name(val)
+          when *allowed_hash_functions
+            false
