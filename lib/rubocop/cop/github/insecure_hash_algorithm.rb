@@ -34,3 +34,8 @@ module RuboCop
             ...)
         PATTERN
 
+        # Matches calls like "Digest(:MD5)".
+        def_node_matcher :insecure_hash_lookup?, <<-PATTERN
+          (send _ :Digest #insecure_algorithm?)
+        PATTERN
+
