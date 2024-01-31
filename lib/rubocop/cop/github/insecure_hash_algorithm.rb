@@ -17,3 +17,12 @@ module RuboCop
           (const (const _ :Digest) #insecure_algorithm?)
         PATTERN
 
+        # Matches calls like these:
+        #   Digest.new('md5')
+        #   Digest.hexdigest('md5', 'str')
+        #   OpenSSL::Digest.new('md5')
+        #   OpenSSL::Digest.hexdigest('md5', 'str')
+        #   OpenSSL::Digest::Digest.new('md5')
+        #   OpenSSL::Digest::Digest.hexdigest('md5', 'str')
+        #   OpenSSL::Digest::Digest.new(:MD5)
+        #   OpenSSL::Digest::Digest.hexdigest(:MD5, 'str')
