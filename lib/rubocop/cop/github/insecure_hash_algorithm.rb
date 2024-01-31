@@ -107,4 +107,5 @@ module RuboCop
           end
         end
 
+        def on_const(const_node)
  
