@@ -26,3 +26,11 @@ module RuboCop
         #   OpenSSL::Digest::Digest.hexdigest('md5', 'str')
         #   OpenSSL::Digest::Digest.new(:MD5)
         #   OpenSSL::Digest::Digest.hexdigest(:MD5, 'str')
+        def_node_matcher :insecure_digest?, <<-PATTERN
+          (send
+            (const _ {:Digest :HMAC})
+            #not_just_encoding?
+            #insecure_algorithm?
+            ...)
+        PATTERN
+
