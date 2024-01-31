@@ -109,4 +109,8 @@ module RuboCop
 
         def on_const(const_node)
           if insecure_const?(const_node) && !digest_uuid?(const_node)
+            add_offense(const_node, message: MSG)
+          end
+        end
+
  
