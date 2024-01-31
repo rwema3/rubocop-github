@@ -67,3 +67,11 @@ module RuboCop
           case alg_name(val)
           when *allowed_hash_functions
             false
+          when Symbol
+            # can't figure this one out, it's nil or a var or const.
+            false
+          else
+            true
+          end
+        end
+
