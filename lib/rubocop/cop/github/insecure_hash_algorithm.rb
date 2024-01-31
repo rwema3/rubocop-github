@@ -39,3 +39,8 @@ module RuboCop
           (send _ :Digest #insecure_algorithm?)
         PATTERN
 
+        # Matches calls like "OpenSSL::HMAC.new(secret, hash)"
+        def_node_matcher :openssl_hmac_new?, <<-PATTERN
+          (send (const (const _ :OpenSSL) :HMAC) :new ...)
+        PATTERN
+
