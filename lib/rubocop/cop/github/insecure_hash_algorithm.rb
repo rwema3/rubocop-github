@@ -102,4 +102,9 @@ module RuboCop
           case val.type
           when :sym, :str
             val.children.first.to_s.downcase
+          else
+            val.type
+          end
+        end
+
  
