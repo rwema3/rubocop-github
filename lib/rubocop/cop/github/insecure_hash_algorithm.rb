@@ -129,4 +129,11 @@ module RuboCop
             end
           when insecure_digest?(send_node)
             add_offense(send_node, message: MSG)
- 
+          when insecure_hash_lookup?(send_node)
+            add_offense(send_node, message: MSG)
+          end
+        end
+      end
+    end
+  end
+end
