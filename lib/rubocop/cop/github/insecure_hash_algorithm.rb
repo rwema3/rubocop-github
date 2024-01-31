@@ -113,4 +113,7 @@ module RuboCop
           end
         end
 
+        def on_send(send_node)
+          case
+          when uuid_v3?(send_node)
  
