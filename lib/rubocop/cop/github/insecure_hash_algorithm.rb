@@ -48,3 +48,8 @@ module RuboCop
         def_node_matcher :openssl_hmac_new_insecure?, <<-PATTERN
           (send (const (const _ :OpenSSL) :HMAC) :new _ #insecure_algorithm?)
         PATTERN
+
+        # Matches Rails's Digest::UUID.
+        def_node_matcher :digest_uuid?, <<-PATTERN
+          (const (const _ :Digest) :UUID)
+        PATTERN
