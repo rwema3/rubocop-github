@@ -100,4 +100,6 @@ module RuboCop
           return :nil if val.nil?
           return val.to_s.downcase unless val.is_a?(RuboCop::AST::Node)
           case val.type
+          when :sym, :str
+            val.children.first.to_s.downcase
  
