@@ -58,3 +58,7 @@ module RuboCop
           (send (const _ :UUID) :uuid_v3 ...)
         PATTERN
 
+        def_node_matcher :uuid_v5?, <<-PATTERN
+          (send (const _ :UUID) :uuid_v5 ...)
+        PATTERN
+
