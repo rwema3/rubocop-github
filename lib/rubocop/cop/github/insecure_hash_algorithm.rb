@@ -117,4 +117,6 @@ module RuboCop
           case
           when uuid_v3?(send_node)
             unless allowed_hash_functions.include?("md5")
+              add_offense(send_node, message: UUID_V3_MSG)
+            end
  
