@@ -62,3 +62,5 @@ module RuboCop
           (send (const _ :UUID) :uuid_v5 ...)
         PATTERN
 
+        def insecure_algorithm?(val)
+          return false if val == :Digest # Don't match "Digest::Digest".
