@@ -28,3 +28,4 @@ module RuboCop
               register_offense(sym_node, node)
             end
           elsif option_pairs = render_with_options?(node)
+            option_pairs.each do |pair|
