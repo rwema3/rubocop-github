@@ -91,4 +91,6 @@ module RuboCop
               add_offense(node)
               return
             end
+            option_pairs = option_hash && option_hash.pairs
+          else
       
