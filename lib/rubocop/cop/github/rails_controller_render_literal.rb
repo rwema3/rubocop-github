@@ -64,4 +64,9 @@ module RuboCop
               return
             end
 
+            if template_node = option_pairs.map { |pair| template_key?(pair) }.compact.first
+              if !literal?(template_node)
+                add_offense(node)
+                return
+              end
       
