@@ -9,3 +9,5 @@ module RuboCop
       class RailsControllerRenderLiteral < Base
         include RenderLiteralHelpers
 
+        MSG = "render must be used with a string literal or an instance of a Class"
+
