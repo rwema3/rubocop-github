@@ -14,3 +14,7 @@ module RuboCop
           (send nil? {:render :render_to_string} $(sym _))
         PATTERN
 
+        def_node_matcher :render_with_options?, <<-PATTERN
+          (send nil? {:render :render_to_string} (hash $...))
+        PATTERN
+
