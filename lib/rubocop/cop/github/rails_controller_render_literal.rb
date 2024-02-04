@@ -50,3 +50,8 @@ module RuboCop
         def_node_matcher :render_const?, <<-PATTERN
           (send nil? {:render :render_to_string} (const _ _) ...)
         PATTERN
+
+        def on_send(node)
+          return unless render?(node)
+
+      
