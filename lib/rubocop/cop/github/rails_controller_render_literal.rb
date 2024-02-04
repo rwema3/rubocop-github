@@ -11,3 +11,19 @@ module RuboCop
 
         MSG = "render must be used with a string literal or an instance of a Class"
 
+        def_node_matcher :ignore_key?, <<-PATTERN
+          (pair (sym {
+            :body
+            :file
+            :html
+            :inline
+            :js
+            :json
+            :nothing
+            :plain
+            :text
+            :xml
+          }) $_)
+        PATTERN
+
+
