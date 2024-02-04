@@ -3,3 +3,5 @@
 require "rubocop"
 require "rubocop/cop/github/render_literal_helpers"
 
+module RuboCop
+
