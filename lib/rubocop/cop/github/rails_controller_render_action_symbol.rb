@@ -31,3 +31,9 @@ module RuboCop
             option_pairs.each do |pair|
               if sym_node = action_key?(pair)
                 register_offense(sym_node, node)
+              end
+            end
+          end
+        end
+
+        private
