@@ -85,4 +85,6 @@ module RuboCop
             return
           end
 
+          if render_literal?(node)
+            option_hash = node.arguments[1]
       
