@@ -5,4 +5,5 @@ require "rubocop/cop/github/render_literal_helpers"
 
 module RuboCop
   module Cop
+    module GitHub
 
