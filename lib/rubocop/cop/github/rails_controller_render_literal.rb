@@ -38,4 +38,12 @@ module RuboCop
           (pair (sym :layout) $_)
         PATTERN
 
+        def_node_matcher :options_key?, <<-PATTERN
+          (pair (sym {
+            :content_type
+            :location
+            :status
+            :formats
+          }) ...)
+        PATTERN
 
