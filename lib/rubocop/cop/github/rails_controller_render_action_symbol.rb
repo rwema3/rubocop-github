@@ -23,3 +23,4 @@ module RuboCop
         PATTERN
 
         def on_send(node)
+          if sym_node = render_sym?(node)
