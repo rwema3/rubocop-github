@@ -74,4 +74,7 @@ module RuboCop
               return
             end
 
+            if layout_node = option_pairs.map { |pair| layout_key?(pair) }.compact.first
+              if !literal?(layout_node)
+                add_offense(node)
       
