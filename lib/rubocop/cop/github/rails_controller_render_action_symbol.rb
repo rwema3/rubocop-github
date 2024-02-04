@@ -27,3 +27,4 @@ module RuboCop
             add_offense(sym_node) do |corrector|
               register_offense(sym_node, node)
             end
+          elsif option_pairs = render_with_options?(node)
