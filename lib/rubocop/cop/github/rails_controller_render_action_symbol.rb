@@ -25,3 +25,5 @@ module RuboCop
         def on_send(node)
           if sym_node = render_sym?(node)
             add_offense(sym_node) do |corrector|
+              register_offense(sym_node, node)
+            end
