@@ -37,3 +37,5 @@ module RuboCop
         end
 
         private
+
+        def register_offense(sym_node, node)
