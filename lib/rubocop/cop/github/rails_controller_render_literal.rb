@@ -7,4 +7,5 @@ module RuboCop
   module Cop
     module GitHub
       class RailsControllerRenderLiteral < Base
+        include RenderLiteralHelpers
 
