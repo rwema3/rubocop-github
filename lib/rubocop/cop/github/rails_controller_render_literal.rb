@@ -69,4 +69,9 @@ module RuboCop
                 add_offense(node)
                 return
               end
+            else
+              add_offense(node)
+              return
+            end
+
       
