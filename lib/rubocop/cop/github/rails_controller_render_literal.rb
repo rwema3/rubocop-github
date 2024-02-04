@@ -34,4 +34,8 @@ module RuboCop
           }) $_)
         PATTERN
 
+        def_node_matcher :layout_key?, <<-PATTERN
+          (pair (sym :layout) $_)
+        PATTERN
+
 
