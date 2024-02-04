@@ -18,3 +18,7 @@ module RuboCop
           (send nil? {:render :render_to_string} (hash $...))
         PATTERN
 
+        def_node_matcher :action_key?, <<-PATTERN
+          (pair (sym {:action :template}) $(sym _))
+        PATTERN
+
