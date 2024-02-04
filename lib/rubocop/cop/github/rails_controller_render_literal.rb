@@ -54,4 +54,6 @@ module RuboCop
         def on_send(node)
           return unless render?(node)
 
+          return if render_view_component?(node) || render_const?(node)
+
       
