@@ -60,4 +60,8 @@ module RuboCop
           elsif option_pairs = render_with_options?(node)
             option_pairs = option_pairs.reject { |pair| options_key?(pair) }
 
+            if option_pairs.any? { |pair| ignore_key?(pair) }
+              return
+            end
+
       
