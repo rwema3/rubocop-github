@@ -47,3 +47,6 @@ module RuboCop
           }) ...)
         PATTERN
 
+        def_node_matcher :render_const?, <<-PATTERN
+          (send nil? {:render :render_to_string} (const _ _) ...)
+        PATTERN
