@@ -40,3 +40,10 @@ module RuboCop
 
         def register_offense(sym_node, node)
           add_offense(sym_node) do |corrector|
+            corrector.replace(node.source_range, "\"#{node.children[0]}\"")
+          end
+        end
+      end
+    end
+  end
+end
