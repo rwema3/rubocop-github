@@ -100,4 +100,10 @@ module RuboCop
             locals = option_pairs.map { |pair| locals_key?(pair) }.compact.first
             if locals && (!locals.hash_type? || !hash_with_literal_keys?(locals))
               add_offense(node)
-      
+            end
+          end
+        end
+      end
+    end
+  end
+end
