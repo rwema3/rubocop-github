@@ -56,4 +56,8 @@ module RuboCop
 
           return if render_view_component?(node) || render_const?(node)
 
+          if render_literal?(node)
+          elsif option_pairs = render_with_options?(node)
+            option_pairs = option_pairs.reject { |pair| options_key?(pair) }
+
       
