@@ -39,3 +39,4 @@ module RuboCop
         private
 
         def register_offense(sym_node, node)
+          add_offense(sym_node) do |corrector|
