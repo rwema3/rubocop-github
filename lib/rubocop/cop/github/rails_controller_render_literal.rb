@@ -93,4 +93,7 @@ module RuboCop
             end
             option_pairs = option_hash && option_hash.pairs
           else
+            option_pairs = node.arguments[0].pairs
+          end
+
       
