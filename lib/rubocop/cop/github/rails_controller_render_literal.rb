@@ -26,4 +26,12 @@ module RuboCop
           }) $_)
         PATTERN
 
+        def_node_matcher :template_key?, <<-PATTERN
+          (pair (sym {
+            :action
+            :partial
+            :template
+          }) $_)
+        PATTERN
+
 
