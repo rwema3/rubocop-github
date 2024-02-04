@@ -22,3 +22,4 @@ module RuboCop
           (pair (sym {:action :template}) $(sym _))
         PATTERN
 
+        def on_send(node)
